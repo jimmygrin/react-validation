@@ -20,3 +20,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+#container {
+  width: 800px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background: gray;
+  padding: 20px;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  
+  margin: 10px;
+}
+
+form label {
+  color: white;
+}
+
+form input {
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+#button {
+
+  width: 100px;
+ 
+
+
+  padding-top: 20px;
+
+
+
+}
